@@ -1,0 +1,31 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="app_bar_height">220dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+
+
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="margin_1">10dp</dimen>
+    <dimen name="margin_2">13dp</dimen>
+    <dimen name="margin_3">16dp</dimen>
+
+    <dimen name="field_padding">5dp</dimen>
+
+    <dimen name="text_font_size">14sp</dimen>
+    <dimen name="et_font_size">14sp</dimen>
+
+    <dimen name="hint_font_size">14sp</dimen>
+    <dimen name="dialog_search_toolbar_height">42dp</dimen>
+    <dimen name="dialog_toolbar_padding">6dp</dimen>
+
+    <dimen name="badge_text_size">12sp</dimen>
+    <dimen name="badge_width_height">22dp</dimen>
+    <dimen name="menu_icon_width_height">45dp</dimen>
+    <dimen name="menu_font_size">10sp</dimen>
+    <dimen name="speaker_img_width_height">70dp</dimen>
+    <dimen name="speaker_header_img_width_height">100dp</dimen>
+    <dimen name="text_font_size_lg">16sp</dimen>
+    <dimen name="label_icon_width_height">20dp</dimen>
+</resources>

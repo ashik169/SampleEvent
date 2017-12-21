@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout_1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    tools:context="com.qinnovation.sample.ui.floor.FloorPlanActivity">
+
+    <com.qinnovation.sample.ui.floor.MarkerPhotoView
+        android:id="@+id/iv_photo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/floor_plan" />
+
+    <include
+        android:id="@+id/marker_layout"
+        layout="@layout/marker_image" />
+    <!---->
+    <!--<com.github.chrisbanes.photoview.PhotoView-->
+    <!--android:id="@+id/iv_photo"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent" />-->
+
+    <!--<com.qinnovation.sample.ui.floor.MarkerImageView-->
+    <!--android:id="@+id/myZoomageView"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:pointerIcon="arrow"-->
+    <!--android:scaleType="centerCrop"-->
+    <!--android:src="@drawable/image_1" />-->
+
+    <!--<com.qinnovation.sample.ui.floor.MarkerImageView-->
+    <!--android:id="@+id/myZoomageView"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:src="@drawable/image_1"-->
+    <!--app:zoomage_animateOnReset="true"-->
+    <!--app:zoomage_autoCenter="true"-->
+    <!--app:zoomage_autoResetMode="UNDER"-->
+    <!--app:zoomage_maxScale="8"-->
+    <!--app:zoomage_minScale="1"-->
+    <!--app:zoomage_restrictBounds="false"-->
+    <!--app:zoomage_translatable="true"-->
+    <!--app:zoomage_zoomable="true" />-->
+
+
+</RelativeLayout>

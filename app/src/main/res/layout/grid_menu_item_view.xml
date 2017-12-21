@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/item_view"
+    android:background="?selectableItemBackground"
+    android:padding="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/img_icon"
+        android:layout_width="@dimen/menu_icon_width_height"
+        android:layout_height="@dimen/menu_icon_width_height"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        tools:background="@drawable/circle_shape"
+        android:layout_centerHorizontal="true"
+        android:src="@android:drawable/ic_dialog_email"
+        android:contentDescription="@null" />
+
+    <TextView
+        android:id="@+id/text_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="@dimen/badge_width_height"
+        android:minHeight="@dimen/badge_width_height"
+        tools:text="9+"
+        android:padding="3dp"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:translationX="10dp"
+        android:translationY="-5dp"
+        android:textSize="@dimen/badge_text_size"
+        android:visibility="invisible"
+        tools:visibility="visible"
+        android:background="@drawable/circle_shape"
+        android:layout_alignEnd="@+id/img_icon"
+        android:layout_alignTop="@+id/img_icon"/>
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@android:id/text1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Menu 1"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/img_icon"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="@dimen/menu_font_size"/>
+
+</RelativeLayout>
